@@ -51,11 +51,11 @@ int main()
 
     an = a1 * pow(razao, n - 1);
     cout << "Termos: ";
-    for (int i = 0; i <= an; i *= razao)
+    for (int i = a1; i <= an; i *= razao)
     {
       cout << i << " ";
     }
-    soma = (((a1) * (pow(razao, n) - 1)) / (soma - 1));
+    soma = (a1 * ((pow(razao, n) - 1))) / (razao - 1);
     cout << endl
          << "Soma: " << soma << endl;
 
