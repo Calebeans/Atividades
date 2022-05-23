@@ -4,10 +4,17 @@ using namespace std;
 
 int main()
 {
-    char n;
-    int i;
-    for (i = 0; i <= 127; i++)
-    {
-        printf("%d = %c\n", i, i);
+    int s = -127;
+
+    cout << " Carac   Dec   Hex\n\n";
+    for (char i = -127; i < 127; i++){
+        cout << " " << i << "    "<< s << "     ";
+        printf("%X", s);
+        cout << "\n";
+        s++;
     }
+    cout << "\n     Carac   Dec     Hex\n\n";
+    cout << "   \x122 ENTER \x122   10      A\n\n";
+    system("PAUSE");
+    return 0;
 }

@@ -43,11 +43,15 @@ int main()
   case 2:
     system("cls");
     cout << "Numero de termos:" << endl;
+    do{
     cin >> n;
+    }while (n<=0);    
     cout << "Primeiro termo:" << endl;
     cin >> a1;
     cout << "Informe a razão:" << endl;
+    do{
     cin >> razao;
+    }while (razao ==0);
 
     an = a1 * pow(razao, n - 1);
     cout << "Termos: ";
