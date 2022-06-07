@@ -23,6 +23,7 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
     {
+        //asdsdd
         cout << fibo(i) << endl;
     }
     cout << endl;
